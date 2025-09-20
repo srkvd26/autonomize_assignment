@@ -24,7 +24,7 @@ class amazonPage(CommonAction):
             products = self.find_elements(self.products)
             #print(len(items))
             for product in products:
-                title = self.get_text((self.title_tag, product))
+                title = self.get_text((self.title_tag, product)).split('|')[0]
                 #price = self.get_text((self.price_tag, product))
                 #rating = self.get_text((self.rating_tag, product))
                 #reviews = self.get_text((self.reviews_tag, product))
