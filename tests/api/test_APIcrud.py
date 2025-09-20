@@ -2,11 +2,12 @@ import pytest
 import requests
 from pytest_bdd import *
 from utils.excelReadWrite import ExcelReadWrite
-
+from utils.configReader import ConfigReader
 
 scenarios("../features/apiCRUD.feature")
 
-base_url = "https://dummyjson.com/users"
+config = ConfigReader()
+base_url = config.get("api", "base_url") + "/users"
 
 
 @given("The data is fetched from Excel")
@@ -65,7 +66,7 @@ def get_user():
 
 @then("Fetched details should match the created data")
 def validate_fetched_user():
-    for key in ["firstName", "lastName", "email"]:
+    for key in ["firstName", "lastName", "age"]:
         assert pytest.fetchedUser[key] == pytest.createdUsers[1][key]
 
 
