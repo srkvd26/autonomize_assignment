@@ -1,28 +1,33 @@
 import pytest
 from pytest_bdd import *
 from pages.searchPage import amazonPage
+from selenium.webdriver.common.by import By
 
 scenarios("../features/productsList.feature")
 
 @given("the user is on the amazon home page")
-def test_navHPage(driver, url):
+def navHPage(driver):
     driver.get("https://www.amazon.in/")
+    try:
+        driver.find_element(By.XPATH, "//button[contains(text(), 'Continue shopping')]").click()
+    except:
+        pass
 
 @when("user search with 'mobile' keyword")
-def test_search(driver, keyword):
+def search(driver):
     hPage = amazonPage(driver)
     hPage.productSearch('mobile')
 
 @then("extract details of the products from the first 2 pages")
-def test_getDetails(driver, pages):
+def getDetails(driver):
     gdt = amazonPage(driver)
     a = gdt.getDetails(2)
     print(a)
 
 @then("save the details into an Excel file")
-def test_saveIntoFile(driver):
+def saveIntoFile(driver):
     pass
 
 @then("check if details of atleast 10 products are fetched")
-def test_productCnt():
+def productCnt():
     pass

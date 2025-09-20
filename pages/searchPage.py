@@ -8,9 +8,9 @@ class amazonPage(CommonAction):
     search_btn = (By.XPATH, "//*[@id='nav-search-submit-text']")
     products = (By.XPATH, "//*[@data-component-type = 's-search-result' and @class = 'sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16']")
     title_tag = (By.XPATH, ".//h2/span")
-    price_tag = None
-    rating_tag = None
-    reviews_tag = None
+    #price_tag = None
+    #rating_tag = None
+    #reviews_tag = None
     nxtpg = (By.XPATH, "//a[contains(@aria-label, 'Go to next page')]")
 
     def productSearch(self, keyword):
@@ -25,15 +25,15 @@ class amazonPage(CommonAction):
             #print(len(items))
             for product in products:
                 title = self.get_text((self.title_tag, product))
-                price = self.get_text((self.price_tag, product))
-                rating = self.get_text((self.rating_tag, product))
-                reviews = self.get_text((self.reviews_tag, product))
+                #price = self.get_text((self.price_tag, product))
+                #rating = self.get_text((self.rating_tag, product))
+                #reviews = self.get_text((self.reviews_tag, product))
 
                 products_lst.append(
                     {"title": title,
-                     "price": price,
-                     "rating": rating,
-                     "reviews": reviews
+                     "price": 0,
+                     "rating": 0,
+                     "reviews": 0
                     }
                 )
             if p < pages-1:

@@ -4,10 +4,12 @@ import logging
 import os
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def driver():
     global driver
-    driver = webdriver.Chrome()
+    optns = webdriver.ChromeOptions()
+    optns.add_argument("--incognito")
+    driver = webdriver.Chrome(options=optns)
     driver.maximize_window()
     driver.implicitly_wait(3)
     yield driver
