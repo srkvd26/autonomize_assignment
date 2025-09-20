@@ -2,7 +2,7 @@ import pytest
 from pytest_bdd import *
 from pages.searchPage import amazonPage
 from selenium.webdriver.common.by import By
-from utils.writeToFile import ExcelWriter
+from utils.excelReadWrite import ExcelReadWrite
 
 scenarios("../features/productsList.feature")
 
@@ -28,7 +28,7 @@ def getDetails(driver):
 
 @then("save the details into an Excel file")
 def saveIntoFile(driver):
-    ExcelWriter.write("./data/prdDetails.xlsx", prdList)
+    ExcelReadWrite.write("./data/prdDetails.xlsx", prdList)
 
 @then("check if details of atleast 10 products are fetched")
 def productCnt():
