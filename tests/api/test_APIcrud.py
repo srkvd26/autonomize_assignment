@@ -71,7 +71,7 @@ def get_user(logger):
 def validate_fetched_user(logger):
     for key in ["firstName", "lastName", "age"]:
         assert pytest.fetchedUser[key] == pytest.createdUsers[1][key]
-    logger.info("Fetched user details match the created data")
+    logger.info("Fetched user details match with the created data")
 
 
 @when("Delete the last user")
