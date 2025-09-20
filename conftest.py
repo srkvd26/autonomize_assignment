@@ -1,7 +1,7 @@
 from selenium import webdriver
 import pytest
 import logging
-import os
+import pytest_html
 
 
 @pytest.fixture(scope="session")
@@ -17,10 +17,17 @@ def driver():
 
 @pytest.fixture(scope="session")
 def logger():
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger("QA_Automation")
     logger.setLevel(logging.INFO)
-    file_handler = logging.FileHandler(f"./data/QA_Automation.log")
-    formatter = logging.Formatter("%(asctime)s - %(message)s")
-    file_handler.setFormatter(formatter)
-    logger.addHandler(file_handler)
+
+    if not logger.handlers:
+        file_handler = logging.FileHandler("./data/QA_Automation.log", encoding="utf-8")
+        formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+
     return logger
+
+#Set custom title for the HTML report
+def pytest_html_report_title(report):
+    report.title = "QA Automation Test Report"
