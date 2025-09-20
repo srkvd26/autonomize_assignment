@@ -9,10 +9,14 @@ class CommonAction:
         self.driver = driver
         self._wait = WebDriverWait(self.driver, 30)
 
-    def find_element(self, locator):
+    def find_element(self, locator, parent = None):
+        if parent:
+            return parent.find_element(*locator)
         return self.driver.find_element(*locator)
 
-    def find_elements(self, locator):
+    def find_elements(self, locator, parent = None):
+        if parent:
+            return parent.find_elements(*locator)
         return self.driver.find_elements(*locator)
 
     def wait_till_located(self, locator):
@@ -32,6 +36,9 @@ class CommonAction:
         action = ActionChains(self.driver)
         action.move_to_element(element).perform()
 
-    def get_text(self, locator):
-        element = self.driver.find_element(*locator)
+    def get_text(self, locator, parent = None):
+        if parent:
+            element = self.find_element(*locator, parent)
+        else:
+            element = self.find_element(*locator)
         return element.text
