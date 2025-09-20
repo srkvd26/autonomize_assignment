@@ -14,3 +14,13 @@ def driver():
     driver.implicitly_wait(3)
     yield driver
     driver.quit()
+
+@pytest.fixture(scope="session")
+def logger():
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+    file_handler = logging.FileHandler(f"./data/QA_Automation.log")
+    formatter = logging.Formatter("%(asctime)s - %(message)s")
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    return logger

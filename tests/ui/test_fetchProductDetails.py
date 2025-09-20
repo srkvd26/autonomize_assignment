@@ -15,32 +15,38 @@ output_file = config.get("amazon", "output_file")
 
 
 @given("the user is on the amazon home page")
-def navHPage(driver):
+def navHPage(driver, logger):
     driver.get(amazon_url)
+    logger.info(f"Navigated to Amazon URL: {amazon_url}")
     try:
         driver.find_element(By.XPATH, "//button[contains(text(), 'Continue shopping')]").click()
+        logger.info("Dismissed 'Continue shopping' prompt")
     except:
-        pass
+        logger.info("No prompt displayed")
 
 
 @when("user search with the keyword")
-def search(driver):
+def search(driver, logger):
     hPage = amazonPage(driver)
     hPage.productSearch(search_keyword)
+    logger.info(f"Searched Amazon with keyword: {search_keyword}")
 
 
 @then("extract details of the products from the first 2 pages")
-def getDetails(driver):
+def getDetails(driver, logger):
     gdt = amazonPage(driver)
     global prdList
     prdList = gdt.getDetails(pages)
+    logger.info(f"Extracted {len(prdList)} products from {pages} pages")
 
 
 @then("save the details into an Excel file")
-def saveIntoFile(driver):
+def saveIntoFile(driver, logger):
     ExcelReadWrite.write(output_file, prdList)
+    logger.info(f"Saved product details into {output_file}")
 
 
 @then("check if details of atleast 10 products are fetched")
-def productCnt():
+def productCnt(logger):
     assert len(prdList) >= 10
+    logger.info(f"Product count validation passed: {len(prdList)} products")
