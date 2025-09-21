@@ -19,7 +19,9 @@ class CommonAction:
             return parent.find_elements(*locator)
         return self.driver.find_elements(*locator)
 
-    def wait_till_located(self, locator):
+    def wait_till_located(self, locator, all = None):
+        if all:
+            return self._wait.until(EC.presence_of_all_elements_located(locator))
         return self._wait.until(EC.presence_of_element_located(locator))
 
     def wait_till_clickable(self, locator):
@@ -38,7 +40,14 @@ class CommonAction:
 
     def get_text(self, locator, parent = None):
         if parent:
-            element = self.find_element(*locator, parent)
+            element = self.find_element(locator, parent)
         else:
-            element = self.find_element(*locator)
+            element = self.find_element(locator)
         return element.text
+    
+    def getAttribute(self, locator, atrbt, parent):
+        if parent:
+            element = self.find_element(locator, parent)
+        else:
+            element = self.find_element(locator)
+        return element.get_attribute(atrbt)

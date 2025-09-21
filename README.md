@@ -5,9 +5,11 @@ This repository contains automation test suites for **UI Testing** and **API Tes
 
 ## Setup Instructions
 
-1. **Install Python**
+1. **Download the repository to a local folder.**
 
-2. **Create & activate virtual environment**  
+2. **Install Python**
+
+3. **Create & activate virtual environment**  
    # Windows
    python -m venv venv
    venv\Scripts\activate
@@ -16,10 +18,10 @@ This repository contains automation test suites for **UI Testing** and **API Tes
    python3 -m venv venv
    source venv/bin/activate
 
-3. **Install dependencies**  
+4. **Install dependencies**  
    pip install -r requirements.txt
 
-4. **Directory Structure (example)**  
+5. **Directory Structure (example)**  
    ├── data/               # Logs & Excel files
    ├── tests/
    │   ├── ui/
@@ -45,6 +47,8 @@ This repository contains automation test suites for **UI Testing** and **API Tes
 2. Run tests:  
    pytest -v -s --html=reports/report.html --self-contained-html
 
+- Product details are saved under the `data/` folder.
+- To view the details, open the generated `.xlsx` file.
 
 ## Generating & Viewing Reports  
 
