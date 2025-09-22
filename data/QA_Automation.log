@@ -1,0 +1,1232 @@
+2025-09-20 19:25:28,976 - Navigated to Amazon URL: https://www.amazon.in/
+2025-09-20 19:25:32,223 - No prompt displayed
+2025-09-20 19:25:33,048 - Searched Amazon with keyword: mobile
+2025-09-20 19:25:38,146 - Extracted 6 products from 2 pages
+2025-09-20 19:25:38,189 - Saved product details into data/prdDetails.xlsx
+2025-09-20 19:26:35,877 - Navigated to Amazon URL: https://www.amazon.in/
+2025-09-20 19:26:38,917 - No prompt displayed
+2025-09-20 19:26:43,030 - Searched Amazon with keyword: mobile
+2025-09-20 19:26:46,069 - Extracted 19 products from 2 pages
+2025-09-20 19:26:46,126 - Saved product details into data/prdDetails.xlsx
+2025-09-20 19:26:46,128 - Product count validation passed: 19 products
+2025-09-20 19:27:19,365 - Fetched 5 users from Excel
+2025-09-20 19:27:21,156 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 19:27:22,274 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 19:27:23,496 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 19:27:25,238 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 19:27:26,259 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 19:27:26,259 - Created 5 users successfully
+2025-09-20 19:27:26,267 - All users created successfully
+2025-09-20 19:27:26,272 - Users are already created
+2025-09-20 19:27:27,386 - PATCH https://dummyjson.com/users/209 - Status: 404
+2025-09-20 19:27:27,697 - Users are already created
+2025-09-20 19:27:28,696 - GET https://dummyjson.com/users/209 - Status: 404
+2025-09-20 19:27:28,804 - Users are already created
+2025-09-20 19:27:29,769 - DELETE https://dummyjson.com/users/209 - Status: 404
+2025-09-20 20:04:27,853 - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-20 20:04:31,878 - Navigated to amazon URL: https://www.amazon.in/
+2025-09-20 20:04:34,841 - Clicked 'Continue shopping' button
+2025-09-20 20:04:38,579 - Entered search keyword: mobile
+2025-09-20 20:04:38,579 - Clicked search button
+2025-09-20 20:04:40,533 - Extracted 19 products from 2 pages
+2025-09-20 20:04:40,564 - Saved product details into file: data/prdDetails.xlsx
+2025-09-20 20:04:40,564 - Product count validation passed: 19 products
+2025-09-20 20:04:40,565 - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-20 20:04:56,757 - Fetched 5 users from Excel
+2025-09-20 20:04:58,574 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:04:59,483 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:05:00,387 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:05:01,308 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:05:02,206 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:05:02,206 - Created 5 users successfully
+2025-09-20 20:05:02,206 - All users created successfully
+2025-09-20 20:05:02,222 - Users are already created
+2025-09-20 20:05:03,121 - PATCH https://dummyjson.com/users/209 - Status: 404
+2025-09-20 20:05:03,353 - Users are already created
+2025-09-20 20:05:04,255 - GET https://dummyjson.com/users/209 - Status: 404
+2025-09-20 20:05:04,293 - Users are already created
+2025-09-20 20:05:05,198 - DELETE https://dummyjson.com/users/209 - Status: 404
+2025-09-20 20:29:21,486 - Fetched 5 users from Excel
+2025-09-20 20:29:23,042 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:29:23,977 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:29:24,883 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:29:25,809 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:29:26,714 - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:29:26,714 - Created 5 users successfully
+2025-09-20 20:29:26,714 - All users created successfully
+2025-09-20 20:58:45,135 - INFO - Fetched 5 users from Excel
+2025-09-20 20:58:47,433 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:58:48,345 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:58:49,257 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:58:50,184 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:58:51,090 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 20:58:51,090 - INFO - Created 5 users successfully
+2025-09-20 20:58:51,090 - INFO - All users created successfully
+2025-09-20 21:00:05,510 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-20 21:00:08,557 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-20 21:00:13,396 - INFO - Clicked 'Continue shopping' button
+2025-09-20 21:00:23,062 - INFO - Entered search keyword: mobile
+2025-09-20 21:00:23,062 - INFO - Clicked search button
+2025-09-20 21:00:25,079 - INFO - Extracted 19 products from 2 pages
+2025-09-20 21:00:25,379 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-20 21:00:25,380 - INFO - Product count validation passed: 19 products
+2025-09-20 21:00:25,380 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-20 21:01:10,451 - INFO - Fetched 5 users from Excel
+2025-09-20 21:01:12,043 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:01:12,999 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:01:13,918 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:01:14,861 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:01:15,886 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:01:15,886 - INFO - Created 5 users successfully
+2025-09-20 21:01:15,886 - INFO - All users created successfully
+2025-09-20 21:13:09,138 - INFO - Fetched 5 users from Excel
+2025-09-20 21:13:11,377 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:13:11,377 - INFO - Response: {
+  "id": 209,
+  "firstName": "User1",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 20,
+  "gender": "",
+  "email": "usr1@test.com",
+  "phone": 9999999991,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:13:12,427 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:13:12,427 - INFO - Response: {
+  "id": 209,
+  "firstName": "User2",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 16,
+  "gender": "",
+  "email": "usr2@test.com",
+  "phone": 9999999992,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:13:13,620 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:13:13,620 - INFO - Response: {
+  "id": 209,
+  "firstName": "User3",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 45,
+  "gender": "",
+  "email": "usr3@test.com",
+  "phone": 9999999993,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:13:14,858 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:13:14,858 - INFO - Response: {
+  "id": 209,
+  "firstName": "User4",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 33,
+  "gender": "",
+  "email": "usr4@test.com",
+  "phone": 9999999994,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:13:15,985 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:13:15,985 - INFO - Response: {
+  "id": 209,
+  "firstName": "User5",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 28,
+  "gender": "",
+  "email": "usr5@test.com",
+  "phone": 9999999995,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:13:15,985 - INFO - Created 5 users successfully
+2025-09-20 21:13:15,985 - INFO - All users created successfully
+2025-09-20 21:17:58,732 - INFO - Fetched 5 users from Excel
+2025-09-20 21:18:01,221 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:18:01,222 - INFO - Response: {
+  "id": 209,
+  "firstName": "User1",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 20,
+  "gender": "",
+  "email": "usr1@test.com",
+  "phone": 9999999991,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:18:02,630 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:18:02,631 - INFO - Response: {
+  "id": 209,
+  "firstName": "User2",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 16,
+  "gender": "",
+  "email": "usr2@test.com",
+  "phone": 9999999992,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:18:03,940 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:18:03,940 - INFO - Response: {
+  "id": 209,
+  "firstName": "User3",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 45,
+  "gender": "",
+  "email": "usr3@test.com",
+  "phone": 9999999993,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:18:05,181 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:18:05,185 - INFO - Response: {
+  "id": 209,
+  "firstName": "User4",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 33,
+  "gender": "",
+  "email": "usr4@test.com",
+  "phone": 9999999994,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:18:06,495 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:18:06,496 - INFO - Response: {
+  "id": 209,
+  "firstName": "User5",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 28,
+  "gender": "",
+  "email": "usr5@test.com",
+  "phone": 9999999995,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:18:06,496 - INFO - Created 5 users successfully
+2025-09-20 21:18:06,502 - INFO - All users created successfully
+2025-09-20 21:18:06,511 - INFO - Users are already created
+2025-09-20 21:18:07,774 - INFO - PATCH https://dummyjson.com/users/209 - Payload: {'phone': '9898989898', 'email': 'xyz123@test.com'} - Status: 404
+2025-09-20 21:18:08,550 - INFO - Users are already created
+2025-09-20 21:18:10,092 - INFO - GET https://dummyjson.com/users/209 - Response: {
+  "message": "User with id '209' not found"
+}
+2025-09-20 21:18:10,250 - INFO - Users are already created
+2025-09-20 21:18:11,502 - INFO - DELETE https://dummyjson.com/users/209 - Status: 404
+2025-09-20 21:20:30,188 - INFO - Fetched 5 users from Excel
+2025-09-20 21:20:32,080 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:20:32,080 - INFO - Response: {
+  "id": 209,
+  "firstName": "User1",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 20,
+  "gender": "",
+  "email": "usr1@test.com",
+  "phone": 9999999991,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:20:33,205 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:20:33,207 - INFO - Response: {
+  "id": 209,
+  "firstName": "User2",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 16,
+  "gender": "",
+  "email": "usr2@test.com",
+  "phone": 9999999992,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:20:34,225 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:20:34,225 - INFO - Response: {
+  "id": 209,
+  "firstName": "User3",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 45,
+  "gender": "",
+  "email": "usr3@test.com",
+  "phone": 9999999993,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:20:35,458 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:20:35,460 - INFO - Response: {
+  "id": 209,
+  "firstName": "User4",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 33,
+  "gender": "",
+  "email": "usr4@test.com",
+  "phone": 9999999994,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:20:36,952 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 21:20:36,954 - INFO - Response: {
+  "id": 209,
+  "firstName": "User5",
+  "lastName": "Test",
+  "maidenName": "",
+  "age": 28,
+  "gender": "",
+  "email": "usr5@test.com",
+  "phone": 9999999995,
+  "username": "",
+  "password": "",
+  "birthDate": "",
+  "image": "",
+  "bloodGroup": "",
+  "height": null,
+  "weight": null,
+  "eyeColor": "",
+  "hair": {
+    "color": "",
+    "type": ""
+  },
+  "domain": "",
+  "ip": "",
+  "address": {
+    "address": "",
+    "city": "",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "postalCode": "",
+    "state": ""
+  },
+  "macAddress": "",
+  "university": "",
+  "bank": {
+    "cardExpire": "",
+    "cardNumber": "",
+    "cardType": "",
+    "currency": "",
+    "iban": ""
+  },
+  "company": {
+    "address": {
+      "address": "",
+      "city": "",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      },
+      "postalCode": "",
+      "state": ""
+    },
+    "department": "",
+    "name": "",
+    "title": ""
+  },
+  "ein": "",
+  "ssn": "",
+  "userAgent": ""
+}
+2025-09-20 21:20:36,955 - INFO - Created 5 users successfully
+2025-09-20 21:20:36,960 - INFO - All users created successfully
+2025-09-20 21:20:36,970 - INFO - Users are already created
+2025-09-20 21:20:38,303 - INFO - PATCH https://dummyjson.com/users/209 - Payload: {'phone': '9898989898', 'email': 'xyz123@test.com'} - Status: 404
+2025-09-20 21:20:38,760 - INFO - Users are already created
+2025-09-20 21:20:39,912 - INFO - GET https://dummyjson.com/users/209 - Response: {
+  "message": "User with id '209' not found"
+}
+2025-09-20 21:20:40,077 - INFO - Users are already created
+2025-09-20 21:20:41,366 - INFO - DELETE https://dummyjson.com/users/209 - Status: 404
+2025-09-20 21:21:08,515 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-20 21:21:10,988 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-20 21:21:14,208 - INFO - No 'Continue shopping' prompt displayed
+2025-09-20 21:21:20,599 - INFO - Entered search keyword: mobile
+2025-09-20 21:21:20,599 - INFO - Clicked search button
+2025-09-20 21:21:23,084 - INFO - Extracted 19 products from 2 pages
+2025-09-20 21:21:27,521 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-20 21:21:27,524 - INFO - Product count validation passed: 19 products
+2025-09-20 21:21:27,525 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-20 22:57:47,683 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-20 22:57:52,178 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-20 22:57:55,297 - INFO - No 'Continue shopping' prompt displayed
+2025-09-20 22:58:00,218 - INFO - Entered search keyword: mobile
+2025-09-20 22:58:00,218 - INFO - Clicked search button
+2025-09-20 22:58:03,302 - INFO - Extracted 19 products from 2 pages
+2025-09-20 22:58:03,642 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-20 22:58:03,649 - INFO - Product count validation passed: 19 products
+2025-09-20 22:58:03,649 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-20 23:13:04,590 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-20 23:13:09,103 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-20 23:13:09,260 - INFO - Clicked 'Continue shopping' button
+2025-09-20 23:13:19,218 - INFO - Entered search keyword: mobile
+2025-09-20 23:13:19,218 - INFO - Clicked search button
+2025-09-20 23:13:21,993 - INFO - Extracted 19 products from 2 pages
+2025-09-20 23:13:22,304 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-20 23:13:22,307 - INFO - Product count validation passed: 19 products
+2025-09-20 23:13:22,315 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-20 23:27:22,086 - INFO - Fetched 5 users from Excel
+2025-09-20 23:27:24,512 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 23:27:25,642 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 23:27:26,871 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 23:27:27,896 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 23:27:29,124 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-20 23:27:29,124 - INFO - Created 5 users successfully
+2025-09-20 23:27:29,127 - INFO - All users created successfully
+2025-09-20 23:27:29,134 - INFO - Users are already created
+2025-09-20 23:27:30,248 - INFO - PATCH https://dummyjson.com/users/209 - Status: 404
+2025-09-20 23:27:30,790 - INFO - Users are already created
+2025-09-20 23:27:31,887 - INFO - GET https://dummyjson.com/users/209 - Status: 404
+2025-09-20 23:27:31,995 - INFO - Users are already created
+2025-09-20 23:27:33,115 - INFO - DELETE https://dummyjson.com/users/209 - Status: 404
+2025-09-20 23:27:35,336 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-20 23:27:39,567 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-20 23:27:42,902 - INFO - Clicked 'Continue shopping' button
+2025-09-20 23:27:46,768 - INFO - Entered search keyword: mobile
+2025-09-20 23:27:46,768 - INFO - Clicked search button
+2025-09-20 23:27:48,557 - INFO - Extracted 19 products from 2 pages
+2025-09-20 23:27:48,770 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-20 23:27:48,771 - INFO - Product count validation passed: 19 products
+2025-09-20 23:27:48,771 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 09:08:02,083 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:08:05,688 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:08:09,073 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 09:08:10,333 - INFO - Entered search keyword: mobile
+2025-09-21 09:08:10,333 - INFO - Clicked search button
+2025-09-21 09:16:03,401 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:16:05,948 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:16:10,449 - INFO - Clicked 'Continue shopping' button
+2025-09-21 09:16:12,244 - INFO - Entered search keyword: mobile
+2025-09-21 09:16:12,244 - INFO - Clicked search button
+2025-09-21 09:16:18,993 - INFO - Extracted 6 products from 2 pages
+2025-09-21 09:16:19,189 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 09:16:39,934 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:16:44,878 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:16:47,899 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 09:16:52,932 - INFO - Entered search keyword: mobile
+2025-09-21 09:16:52,932 - INFO - Clicked search button
+2025-09-21 09:17:05,678 - INFO - Extracted 19 products from 2 pages
+2025-09-21 09:17:05,734 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 09:17:05,735 - INFO - Product count validation passed: 19 products
+2025-09-21 09:17:05,736 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 09:27:14,677 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:27:20,560 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:27:23,668 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 09:27:29,852 - INFO - Entered search keyword: mobile
+2025-09-21 09:27:29,853 - INFO - Clicked search button
+2025-09-21 09:27:37,347 - INFO - Extracted 19 products from 2 pages
+2025-09-21 09:27:37,494 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 09:27:37,494 - INFO - Product count validation passed: 19 products
+2025-09-21 09:27:37,494 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 09:30:09,444 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:30:12,407 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:30:15,515 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 09:30:21,123 - INFO - Entered search keyword: mobile
+2025-09-21 09:30:21,123 - INFO - Clicked search button
+2025-09-21 09:30:33,967 - INFO - Extracted 19 products from 2 pages
+2025-09-21 09:30:34,102 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 09:30:34,102 - INFO - Product count validation passed: 19 products
+2025-09-21 09:30:34,102 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 09:43:20,979 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:43:27,455 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:43:30,537 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 09:43:33,832 - INFO - Entered search keyword: mobile
+2025-09-21 09:43:33,832 - INFO - Clicked search button
+2025-09-21 09:48:50,504 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:48:54,643 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:48:54,758 - INFO - Clicked 'Continue shopping' button
+2025-09-21 09:49:01,261 - INFO - Entered search keyword: mobile
+2025-09-21 09:49:01,261 - INFO - Clicked search button
+2025-09-21 09:50:51,349 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:50:54,676 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:50:54,796 - INFO - Clicked 'Continue shopping' button
+2025-09-21 09:51:01,060 - INFO - Entered search keyword: mobile
+2025-09-21 09:51:01,060 - INFO - Clicked search button
+2025-09-21 09:51:04,372 - INFO - Extracted 19 products from 2 pages
+2025-09-21 09:51:54,025 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 09:51:57,861 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 09:52:00,872 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 09:52:03,690 - INFO - Entered search keyword: mobile
+2025-09-21 09:52:03,690 - INFO - Clicked search button
+2025-09-21 09:52:19,306 - INFO - Extracted 19 products from 2 pages
+2025-09-21 09:52:19,479 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 09:52:19,480 - INFO - Product count validation passed: 19 products
+2025-09-21 09:52:19,480 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 10:06:19,163 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 10:06:22,343 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 10:06:22,465 - INFO - Clicked 'Continue shopping' button
+2025-09-21 10:06:29,217 - INFO - Entered search keyword: mobile
+2025-09-21 10:06:29,217 - INFO - Clicked search button
+2025-09-21 10:15:29,605 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 10:15:32,686 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 10:15:35,756 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 10:15:38,883 - INFO - Entered search keyword: mobile
+2025-09-21 10:15:38,883 - INFO - Clicked search button
+2025-09-21 10:15:48,222 - INFO - Extracted 19 products from 2 pages
+2025-09-21 10:15:48,384 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 10:15:48,385 - INFO - Product count validation passed: 19 products
+2025-09-21 10:15:48,385 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 10:22:31,555 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 10:22:34,194 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 10:22:37,272 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 10:22:40,746 - INFO - Entered search keyword: mobile
+2025-09-21 10:22:40,746 - INFO - Clicked search button
+2025-09-21 10:22:50,155 - INFO - Extracted 19 products from 2 pages
+2025-09-21 10:22:50,200 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 10:22:50,201 - INFO - Product count validation passed: 19 products
+2025-09-21 10:22:50,201 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 10:25:28,354 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 10:25:32,087 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 10:25:32,229 - INFO - Clicked 'Continue shopping' button
+2025-09-21 10:25:38,423 - INFO - Entered search keyword: mobile
+2025-09-21 10:25:38,423 - INFO - Clicked search button
+2025-09-21 10:25:47,789 - INFO - Extracted 19 products from 2 pages
+2025-09-21 10:25:47,868 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 10:25:47,869 - INFO - Product count validation passed: 19 products
+2025-09-21 10:25:47,869 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 10:26:44,428 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 10:26:47,196 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 10:26:50,206 - INFO - No 'Continue shopping' prompt displayed
+2025-09-21 10:26:53,043 - INFO - Entered search keyword: mobile
+2025-09-21 10:26:53,043 - INFO - Clicked search button
+2025-09-21 10:27:02,406 - INFO - Extracted 19 products from 2 pages
+2025-09-21 10:27:02,483 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 10:27:02,484 - INFO - Product count validation passed: 19 products
+2025-09-21 10:27:02,484 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 10:28:17,660 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 10:28:21,389 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 10:28:21,532 - INFO - Clicked 'Continue shopping' button
+2025-09-21 10:28:28,391 - INFO - Entered search keyword: mobile
+2025-09-21 10:28:28,391 - INFO - Clicked search button
+2025-09-21 10:28:37,970 - INFO - Extracted 19 products from 2 pages
+2025-09-21 10:28:38,046 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 10:28:38,047 - INFO - Product count validation passed: 19 products
+2025-09-21 10:28:38,047 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-21 14:00:16,907 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-21 14:00:21,218 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-21 14:00:25,382 - INFO - Clicked 'Continue shopping' button
+2025-09-21 14:00:30,724 - INFO - Entered search keyword: mobile
+2025-09-21 14:00:30,724 - INFO - Clicked search button
+2025-09-21 14:00:49,224 - INFO - Extracted 19 products from 2 pages
+2025-09-21 14:00:49,411 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-21 14:00:49,412 - INFO - Product count validation passed: 19 products
+2025-09-21 14:00:49,412 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
+2025-09-22 14:14:18,249 - INFO - Fetched 5 users from Excel
+2025-09-22 14:14:20,251 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-22 14:14:21,520 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-22 14:14:22,622 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-22 14:14:23,627 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-22 14:14:24,682 - INFO - POST https://dummyjson.com/users/add - Status: 201
+2025-09-22 14:14:24,682 - INFO - Created 5 users successfully
+2025-09-22 14:14:24,682 - INFO - All users created successfully
+2025-09-22 14:14:24,695 - INFO - Users are already created
+2025-09-22 14:14:25,720 - INFO - PATCH https://dummyjson.com/users/209 - Status: 404
+2025-09-22 14:14:26,985 - INFO - Users are already created
+2025-09-22 14:14:28,134 - INFO - GET https://dummyjson.com/users/209 - Status: 404
+2025-09-22 14:14:28,249 - INFO - Users are already created
+2025-09-22 14:14:29,356 - INFO - DELETE https://dummyjson.com/users/209 - Status: 404
+2025-09-22 14:14:44,558 - INFO - ===== STARTED GET PRODUCT DETAILS TEST =====
+2025-09-22 14:14:49,107 - INFO - Navigated to amazon URL: https://www.amazon.in/
+2025-09-22 14:14:53,815 - INFO - Clicked 'Continue shopping' button
+2025-09-22 14:14:59,169 - INFO - Entered search keyword: mobile
+2025-09-22 14:14:59,169 - INFO - Clicked search button
+2025-09-22 14:15:06,897 - INFO - Extracted 19 products from 2 pages
+2025-09-22 14:15:07,064 - INFO - Saved product details into file: data/prdDetails.xlsx
+2025-09-22 14:15:07,064 - INFO - Product count validation passed: 19 products
+2025-09-22 14:15:07,068 - INFO - ===== GET PRODUCT DETAILS TEST ENDED =====
